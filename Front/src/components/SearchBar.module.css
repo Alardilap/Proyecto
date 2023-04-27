@@ -1,0 +1,23 @@
+.botonagregar{
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ffcab0;
+    border:solid black 2px;
+    position: relative;
+    top: 3px;
+}
+.input{
+    height: 35px;
+    width: 200px;
+    margin-inline: 9px;
+    border: solid black 2px;
+    border-radius: 8px;
+    position: relative;
+    top:0px;
+}
+.botonagregar:hover{
+    transform: scale(1.1);
+}

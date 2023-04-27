@@ -1,0 +1,128 @@
+.about{
+font-family: cursive;
+font-size: 16px;
+font-weight: 100;
+background-color:#fae1d0; 
+background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+width:500px ;
+height:460px;;
+display: grid;
+border-radius: 20px;
+position: absolute;
+top:147px;
+left: 700px;
+border: solid 2px;
+}
+
+.fondo{
+    margin:0;
+    padding:0;
+}
+.paboutme{
+    
+    padding-left: 10%;
+    padding-right: 10%;
+ text-indent: 0px;
+}
+
+
+
+.aboutrick{
+font-family: cursive;
+font-size: 20px;
+font-weight: 500;
+background-color:#bbe4e9; 
+background: linear-gradient(0deg, rgb(247, 247, 247) 23.8%, rgb(252, 221, 221) 92%);
+width:500px;
+height:460px;;
+display: grid;
+border-radius: 20px;
+position: absolute;
+top: 148px;
+left:120px;
+border: solid 2px;
+}
+
+.parrafo{
+   padding-left: 10%;
+   padding-right: 10%;
+   position: absolute;
+    top: 65px;
+
+}
+.paboutme{
+    top: -41px;
+    position: relative;
+    font-size: 20px;
+}
+.botongit{
+    color:black;
+ font-family:cursive;
+ font-size: 20px;
+ border-radius: 20px;
+ height: auto;
+ font-weight: bold;
+ cursor: pointer;
+ margin-right: 50px;
+ background-color: #ffcab0;
+ border:solid black 2px;
+ width: 150px;
+ position: relative;
+ bottom: 42px;
+    left: 70px;
+}
+a:link,a:visited, a:active {
+    color:black;
+   color:black;
+    text-decoration:none;
+
+}
+
+
+.botongit:hover{
+    transform: scale(1.1);
+   
+}
+.botonlin:hover{
+    transform: scale(1.1);
+   
+}
+.botonlin{
+    font-family:cursive;
+    font-size: 20px;
+    border-radius: 20px;
+    height: auto;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 50px;
+    background-color:#bbe4e9;
+    position: relative;
+    bottom: 76px;
+    left: 260px;
+    border:solid black 2px;
+    width: 150px;
+    color:black;
+}
+.botonir{
+    font-family:cursive;
+    font-size: 20px;
+    border-radius: 20px;
+    height: 27px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 50px;
+    background-color:#ffcab0;
+    position: relative;
+    bottom: 26px;
+    left: 178px;
+    border:solid black 2px;
+    width: 100px;
+    color:black;
+    top: 131px;
+
+}
+/* 
+.link{
+    text-decoration: none;
+    color:black;
+}   */

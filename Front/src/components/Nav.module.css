@@ -1,0 +1,90 @@
+.barrabuscadora{
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  background-color:#9cd3d3;
+  height: 85px;
+  gap: 60px;
+  border-color: black;
+  position: fixed; 
+  z-index :100;
+  width: 100%; 
+  line-height: 10px;
+  top: 0;
+}
+.boton2{
+font-family:cursive;
+font-size: 20px;
+border-radius: 8px;
+height: auto;
+font-weight: bold;
+cursor: pointer;
+margin-right: 50px;
+background-color: #ffcab0;
+border:solid black 2px;
+position: relative;
+top: 3px;
+}
+.boton1{
+   font-size: 20px; 
+   font-family: cursive;
+   border-radius: 8px;
+   font-weight: bold;
+   cursor: pointer;
+   background-color: #ffcab0;
+   border:solid black 2px;
+   position: relative;
+    top: 3px;
+}
+.imagen{
+position:absolute; 
+left:6px;
+height: 77px;
+top:2px;
+width: 110px;
+border-radius: 50%;
+
+}
+
+.boton1:hover{
+  transform: scale(1.1);
+}
+.boton2:hover{
+  transform: scale(1.1);
+}
+.imagen:hover{
+  transform: scale(1.1);
+}
+.botonfavorites{
+  font-size: 20px; 
+  font-family: cursive;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #ffcab0;
+  margin-right: -78px;
+  border:solid black 2px;
+  position: relative;
+  top: 3px;
+  
+  right: 50px;
+
+}
+.botonfavorites:hover{
+  transform: scale(1.1);
+}
+
+
+.inactive{
+  background-color: white;
+}
+.botonir{
+  font-size: 20px; 
+  font-family: cursive;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #ffcab0;
+  margin-right: 40px;
+  border:solid black 2px;
+}

@@ -1,0 +1,89 @@
+.details{
+ 
+height: 450px;
+
+width: 700px;
+margin-top: 130px;
+margin-left: 320px;
+background-size: 100%;
+border-radius: 20px;
+border: solid black 4px;
+
+z-index: 5;
+position: relative;
+background-color: white;
+}
+
+.button{
+    font-size: 23px; 
+    font-family: cursive;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #ffcab0;
+    border:solid black 2px;
+    font-weight: 600;
+    position: relative;
+    bottom: 25px;
+} 
+.button:hover{
+    transform: scale(1.1);
+}
+
+.details::before{
+  background: url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/980px/public/media/image/2022/06/rick-morty-nuevo-trailer-tercera-temporada-586392.jpg?itok=Z2UD4fSV");   
+   
+    opacity: .5;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    content: "";
+    border-radius: 20px;
+    background-size: 800px;
+   
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: -300px;
+    border: solid 4px;
+    margin-top: -900px;
+    margin-bottom: 55px;
+    z-index: 100;
+}
+.name{
+    font-size: 40px;
+ text-align: center;
+font-weight: 600;
+font-family: cursive;
+margin-top: 2px;
+color: black
+}
+
+.detail{
+
+    background-size: 300px;
+    
+}
+
+.detail{
+    font-family: cursive;
+    font-size: 30px;
+    margin-top: -10px;
+    height: 450px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+  
+    margin-left: 350px;
+}
+
+
+
+body{
+    background-color: white;
+}

@@ -1,0 +1,133 @@
+.imagen{
+    width: 278px;
+    height: 278px;
+    border-radius: 50%;
+    border: solid black 3px;
+    display:flex;
+    margin-right: 1px;
+  overflow: hidden;
+
+}
+.cartaprin{
+background-image: url("https://cdn.shopify.com/s/files/1/0280/4731/0936/collections/Logos_SitioWeb2-06_1024x.jpg?v=1601320717");
+margin-top: 141px;
+margin-inline: 50px;
+border: solid black 5px;
+border-radius: 4%;
+background-repeat: repeat;
+background-size:44%;
+font-size: 17px;
+font-family:cursive;
+display: inline-block;
+
+flex-wrap: wrap;
+margin-bottom: -70px;
+width: 21%;
+max-height: 465px;
+overflow: hidden;
+
+}
+
+.nombres{
+background-color: #9cd3d3;
+border-radius: 13px;
+margin:-6px 0px 5px 0px; 
+border: solid black 2px;
+margin-top: 12px;
+color:black;
+display: block;
+font-size: 30px;
+max-height: 45px;
+overflow:hidden;
+text-overflow: ellipsis;
+white-space:nowrap;
+text-decoration: underline blue;
+z-index: 600;
+}
+
+.nombres:hover{
+  max-height: 90px;
+  text-overflow: clip;
+  white-space: normal;
+  text-overflow: clip;
+  z-index: 500;
+  position: relative;
+
+}
+
+.id{
+  margin-top: 0px;
+  margin-left: -240px;
+}
+
+/* a:active{
+  color:#11921b;
+} */
+.gender{
+  text-align: center;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-top: -1em;
+font-size: 25px;
+}
+
+.specie{
+text-align: center;
+margin-top: 10px;
+font-size: 25px;
+
+
+
+}
+
+.button{
+  width: 33px; 
+  height:23px;
+  border: solid black 2px;
+text-align: center;
+border:0px;
+border-radius: 25px;;
+padding: 0px;
+border: solid black 1px;
+margin-inline: 4px;
+cursor: pointer;
+}
+.favorite{
+  width: 33px; 
+  height:23px;
+  border: solid black 2px;
+text-align: center;
+border-radius: 25px;
+border:0px;
+padding: 0px;
+border: solid black 1px;
+cursor: pointer;
+}
+
+.botones{
+  display: inline;
+}
+.unf{
+  width: 33px; 
+  height:23px;
+  border: solid black 2px;
+text-align: center;
+border-radius: 25px;
+border:0px;
+padding: 0px;
+border: solid black 1px;
+
+}
+.unf:hover{
+  transform: scale(1.1);
+}
+
+.link{
+  text-decoration: none;
+  color:black;
+  font-weight: 700;
+  text-decoration: underline  #7c73e6 4px;
+} 
+/* .cartaprin:hover{
+  transform: scale(0.7);
+} */
